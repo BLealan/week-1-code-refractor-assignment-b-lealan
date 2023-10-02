@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* Body changed to include default font as white Gill Sans */
+/* Body changed to include default font as white Gill Sans 16px */
 body {
     background-color: #d9dcd6;
     font-size: 16px;
@@ -15,10 +15,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     padding: 20px;
-    display:block;
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
 }
 
 h1 {
@@ -33,7 +30,6 @@ header ul li {
     display: inline-block;
     margin-left: 25px;
     font-size: 20px;
-
 }
 
 .hero {
@@ -46,7 +42,6 @@ header ul li {
 }
 
 /*condensed styling of content images and headers with same attributes, and reodered content elements to follow flow of page*/
-
 .content {
     width: 75%;
     display: inline-block;
@@ -93,11 +88,13 @@ header ul li {
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
 }
+
 /*condensed elemnts with same margin-bottom and text-align*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /*condensed img layout*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
