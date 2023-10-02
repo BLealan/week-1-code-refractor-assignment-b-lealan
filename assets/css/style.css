@@ -3,13 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
+/* Body changed to include default font as white Gill Sans */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
-
+/* header section condensed and assigned to proper element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -168,15 +168,11 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer condensed and under footer element */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color:black;
-}
-
-h {
-    font-size: 20px;
 }
