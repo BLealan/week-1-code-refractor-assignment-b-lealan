@@ -35,6 +35,10 @@ header ul li {
     float: right;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .hero {
     height: 800px;
     width: 100%;
