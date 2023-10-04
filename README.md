@@ -6,7 +6,7 @@ Having been provided with some starter code, my task was to adjust some of the e
 
 Certain aspects of the .html file were changed to remove vague <div> elements and were replaced with their appropriate ones i.e. <header>, <footer> etc. Their respective atributes were changed in CSS accordingly so that they were still effected.
 
-I also ensured the html and CSS were structured in a similar way to the layout of the page i.e. top to bottom, left to right.
+Any <h> tags were renamed to follow the flow of the page, going from lowest and progressing higher further down the page; this ensure any screen-readers would read headings sequentially rather than eratically across the page. Similarly, I also ensured the html and CSS were structured in a similar way to the layout of the page i.e. top to bottom, left to right, for ease of code readability.
 
 Where multiple selectors possessed the same properties and values, they were combined into one selector, using multiple classes seperated by commas. Similarly, some details, font, text colour and size were shared by the majority of the document - these were placed into the <body> selector to apply to all, but could still be altered by including differences via the parent element.
 

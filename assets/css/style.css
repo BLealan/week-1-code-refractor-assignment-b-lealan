@@ -49,8 +49,8 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+    size: cover;
+    position: center;
 }
 
 /*condensed styling of content images and headers with same attribute (size, display, padding etc.), and reodered content elements to follow flow of page*/
@@ -121,4 +121,8 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color:black;
+}
+
+footer h4 {
+    font-size: 20px;
 }
