@@ -45,12 +45,14 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-#hero {
+
+.hero-image {
     height: 800px;
-    width:auto;
+    width: fit-content;
     margin-bottom: 25px;
-    object-fit: cover;
-    object-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 /*condensed styling of content images and headers with same attribute (size, display, padding etc.), and reodered content elements to follow flow of HTML page*/
