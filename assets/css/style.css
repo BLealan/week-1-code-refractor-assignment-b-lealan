@@ -47,13 +47,13 @@ a {
 }
 #hero {
     height: 800px;
-    width: 100%;
+    width:auto;
     margin-bottom: 25px;
-    size: cover;
-    position: center;
+    object-fit: cover;
+    object-position: center;
 }
 
-/*condensed styling of content images and headers with same attribute (size, display, padding etc.), and reodered content elements to follow flow of page*/
+/*condensed styling of content images and headers with same attribute (size, display, padding etc.), and reodered content elements to follow flow of HTML page*/
 .content {
     width: 75%;
     display: inline-block;
@@ -96,25 +96,25 @@ a {
     background-color: #2589bd;
 }
 
-/*condensed elements with same margin-bottom*/
+/*condensed elements with same margin-bottom styling */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
 }
 
-/*condensed elemnts with same margin-bottom and text-align*/
+/*condensed elemnts with same margin-bottom and text-align styling */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*condensed img layout*/
+/*condensed img layout styling*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* footer condensed and under footer element */
+/* footer styling condensed and within <footer> tag*/
 footer {
     padding: 30px;
     clear: both;
@@ -122,7 +122,7 @@ footer {
     text-align: center;
     color:black;
 }
-
+/*footer class changed to match change in <h> tag*/
 footer h4 {
     font-size: 20px;
 }
