@@ -14,6 +14,9 @@ In terms of SEO and accessibility, a title for the page was inserted into the <h
 
 ## Usage
 
+Below is a link to the live site and screenshots showing it deployed:
+
+
 
 ## Credits
 
