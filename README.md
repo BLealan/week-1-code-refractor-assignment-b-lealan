@@ -14,9 +14,14 @@ In terms of SEO and accessibility, a title for the page was inserted into the <h
 
 ## Usage
 
-Below is a link to the live site and screenshots showing it deployed:
+Below is a link to the live site and screenshots across the page showing it deployed:
 https://blealan.github.io/week-1-code-refractor-assignment-b-lealan/
 
+```md
+    ![Screenshot 1](assets/images/screenshot-1.png)
+    ![Screenshot 2](assets/images/screenshot-2.png)
+    ![Screenshot 2](assets/images/screenshot-3.png)
+    ```
 
 
 ## Credits
