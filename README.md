@@ -15,6 +15,7 @@ In terms of SEO and accessibility, a title for the page was inserted into the <h
 ## Usage
 
 Below is a link to the live site and screenshots showing it deployed:
+https://blealan.github.io/week-1-code-refractor-assignment-b-lealan/
 
 
 
