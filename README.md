@@ -10,7 +10,7 @@ Any <h> tags were renamed to follow the flow of the page, going from lowest and 
 
 Where multiple selectors possessed the same properties and values, they were combined into one selector, or by haaving multiple classes seperated by commas. Similarly, some details, such as font, text colour and size, were shared by the majority of the document and were placed into the <body> selector to apply to all, but could still be altered by including differences dictated the parent element.
 
-In terms of SEO and accessibility, a title for the page was inserted into the <head>. Elsewhere, all pictures were provided with an "alt" tag, giving them a description of the image.
+In terms of SEO and accessibility, a title for the page was inserted into the <head>. Elsewhere, all pictures were provided with an "alt" tag, giving them a description of the image. However, as a result of rewriting the code for the "hero image" in order to have an "alt" tag in HTML the display does not function as it did when in CSS - when the screen width is reduced, the image does not remain centered. After attempting and failing to rectify the styling in CSS, I have had to compromise for the sake of accessibility.
 
 ## Usage
 
